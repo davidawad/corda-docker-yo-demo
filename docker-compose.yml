@@ -13,7 +13,7 @@ services:
 
       - ./build/nodes/PartyA/cordapps:/app/cordapps:ro
       - ./build/nodes/PartyA/certificates:/app/certificates:ro
-      - ./build/nodes/PartyA/logs:/app/logs:ro
+      - ./build/nodes/PartyA/logs:/app/logs
     ports:
       - "10001:10001"
       - "10002:10002"
@@ -32,7 +32,7 @@ services:
 
       - ./build/nodes/PartyB/cordapps:/app/cordapps:ro
       - ./build/nodes/PartyB/certificates:/app/certificates:ro
-      - ./build/nodes/PartyB/logs:/app/logs:ro
+      - ./build/nodes/PartyB/logs:/app/logs
 
     ports:
       - "20001:20001"
@@ -50,7 +50,7 @@ services:
       - ./build/nodes/Notary/additional-node-infos:/app/additional-node-infos
       - ./build/nodes/Notary/certificates:/app/certificates:ro
       # - ./build/nodes/Notary/cordapps:/app/cordapps:ro
-      - ./build/nodes/Notary/logs:/app/logs:ro
+      - ./build/nodes/Notary/logs:/app/logs
 
     ports:
       - "30001:30001"
