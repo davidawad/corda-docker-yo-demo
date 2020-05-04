@@ -329,3 +329,5 @@
 [INFO ] 2020-05-04T20:56:48,338Z [nioEventLoopGroup-2-7] netty.AMQPClient. - Failed to connect to localhost:10008
 [INFO ] 2020-05-04T20:57:48,325Z [nioEventLoopGroup-2-8] netty.AMQPClient. - Retry connect to localhost:10008
 [INFO ] 2020-05-04T20:57:48,330Z [nioEventLoopGroup-2-1] netty.AMQPClient. - Failed to connect to localhost:10008
+[INFO ] 2020-05-04T20:58:48,298Z [nioEventLoopGroup-2-2] netty.AMQPClient. - Retry connect to localhost:10008
+[INFO ] 2020-05-04T20:58:48,303Z [nioEventLoopGroup-2-3] netty.AMQPClient. - Failed to connect to localhost:10008
