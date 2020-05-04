@@ -4,15 +4,15 @@ services:
   alice:
     build: .
     volumes:
-      - ./build/nodes/PartyA/node.conf:/app/node.conf:ro # The node configuration
-      - ./build/nodes/PartyA/network-parameters:/app/network-parameters:ro
+      - ./build/nodes/PartyA/node.conf:/app/node.conf # The node configuration
+      - ./build/nodes/PartyA/network-parameters:/app/network-parameters
       - ./build/nodes/PartyA/additional-node-infos:/app/additional-node-infos
 
       # The business network participant configuration stating which operator is permitted
-      # - ./shared/membership-service-member.conf:/app/cordapps/config/membership-service.conf:ro
+      # - ./shared/membership-service-member.conf:/app/cordapps/config/membership-service.conf
 
-      - ./build/nodes/PartyA/cordapps:/app/cordapps:ro
-      - ./build/nodes/PartyA/certificates:/app/certificates:ro
+      - ./build/nodes/PartyA/cordapps:/app/cordapps
+      - ./build/nodes/PartyA/certificates:/app/certificates
       - ./build/nodes/PartyA/logs:/app/logs
     ports:
       - "10001:10001"
