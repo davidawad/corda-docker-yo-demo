@@ -23,15 +23,15 @@ services:
     build: .
     volumes:
 
-      - ./build/nodes/PartyB/node.conf:/app/node.conf:ro # The node configuration
-      - ./build/nodes/PartyB/network-parameters:/app/network-parameters:ro
+      - ./build/nodes/PartyB/node.conf:/app/node.conf # The node configuration
+      - ./build/nodes/PartyB/network-parameters:/app/network-parameters
       - ./build/nodes/PartyB/additional-node-infos:/app/additional-node-infos
 
       # The business network participant configuration stating which operator is permitted
-      # - ./shared/membership-service-member.conf:/app/cordapps/config/membership-service.conf:ro
+      # - ./shared/membership-service-member.conf:/app/cordapps/config/membership-service.conf
 
-      - ./build/nodes/PartyB/cordapps:/app/cordapps:ro
-      - ./build/nodes/PartyB/certificates:/app/certificates:ro
+      - ./build/nodes/PartyB/cordapps:/app/cordapps
+      - ./build/nodes/PartyB/certificates:/app/certificates
       - ./build/nodes/PartyB/logs:/app/logs
 
     ports:
@@ -45,11 +45,11 @@ services:
     build: .
     volumes:
       # The logs to expose to the host machine
-      - ./build/nodes/Notary/node.conf:/app/node.conf:ro # The node configuration
-      - ./build/nodes/Notary/network-parameters:/app/network-parameters:ro
+      - ./build/nodes/Notary/node.conf:/app/node.conf # The node configuration
+      - ./build/nodes/Notary/network-parameters:/app/network-parameters
       - ./build/nodes/Notary/additional-node-infos:/app/additional-node-infos
-      - ./build/nodes/Notary/certificates:/app/certificates:ro
-      # - ./build/nodes/Notary/cordapps:/app/cordapps:ro
+      - ./build/nodes/Notary/certificates:/app/certificates
+      # - ./build/nodes/Notary/cordapps:/app/cordapps
       - ./build/nodes/Notary/logs:/app/logs
 
     ports:
@@ -62,18 +62,18 @@ services:
     # build: .
     # volumes:
       # # The node configuration
-      # - ./participants/charly/node.conf:/app/node.conf:ro
+      # - ./participants/charly/node.conf:/app/node.conf
       # # The network parameters (https://docs.corda.net/network-map.html#network-parameters) all nodes share
-      # - ./shared/network-parameters:/app/network-parameters:ro
+      # - ./shared/network-parameters:/app/network-parameters
       # # The additional node infos (https://docs.corda.net/network-map.html#the-additional-node-infos-directory)
       # - ./shared/infos:/app/additional-node-infos
       # # The business network CorDapps
-      # - ./shared/cordapps/membership-service-1.0.jar:/app/cordapps/membership-service-1.0.jar:ro
-      # - ./shared/cordapps/membership-service-contracts-and-states-1.0.jar:/app/cordapps/membership-service-contracts-and-states-1.0.jar:ro
+      # - ./shared/cordapps/membership-service-1.0.jar:/app/cordapps/membership-service-1.0.jar
+      # - ./shared/cordapps/membership-service-contracts-and-states-1.0.jar:/app/cordapps/membership-service-contracts-and-states-1.0.jar
       # # The business network participant configuration stating which operator is permitted
-      # - ./shared/membership-service-bno.conf:/app/cordapps/config/membership-service.conf:ro
+      # - ./shared/membership-service-bno.conf:/app/cordapps/config/membership-service.conf
       # # The nodes certificate directory containing all three key stores
-      # - ./participants/charly/certificates:/app/certificates:ro
+      # - ./participants/charly/certificates:/app/certificates
       # # The logs to expose to the host machine
       # - ./logs/charly:/app/logs
     # ports:
