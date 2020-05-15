@@ -65,30 +65,36 @@ On the receiving end, the other corda node will simply receive the Yo using cord
 
 ## Usage
 
+### Quick Start with Docker
 
-### Pre-Requisites
+If  you have docker installed you can use our gradle tasks to generate a valid docker compose file for your node configuration.
 
-See https://docs.corda.net/getting-set-up.html.
+```bash
+# clone the repository
+git clone https://github.com/davidawad/corda-docker-yo-demo && cd corda-docker-yo-demo
 
+# generate the docker-compose file
+./gradlew prepareDockerNodes
 
-### Running the nodes
-
-See https://docs.corda.net/tutorial-cordapp.html#running-the-example-cordapp.
-
-Java
-``./gradlew deployNodesJava``
-
-
-then
-``./build/nodes/runnodes``
-
-### Sending a Yo
-
-We will interact with the nodes via their specific shells. When the nodes are up and running, use the following command to send a
-Yo to another node:
-
+# run our corda network
+docker-compose -f ./build/nodes/docker-compose.yml up
 ```
-    flow start YoFlow target: PartyB
+
+#### Sending a Yo
+
+We will interact with the nodes via their specific shells. When the nodes are up and running, use the following command to send a Yo to another node:
+
+```bash
+# NOTE you'll need to use docker ps to see the port
+# NOTE when the Jira ticket for ssh host pinning is done, we can hardcode the exact port for partyA here to make it easier.
+
+# find the port for PartyA
+ssh user1@0.0.0.0 -p PORT
+
+# the password defined in the node config is "test"
+
+# you'll see the corda shell available
+>>> flow start YoFlow target: PartyB
 ```
 
 Where `NODE_NAME` is 'PartyA' or 'PartyB'. The space after the `:` is required. You are not required to use the full

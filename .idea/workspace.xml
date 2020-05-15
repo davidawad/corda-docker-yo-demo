@@ -2,123 +2,97 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="919d7be4-835b-4fac-b77d-86e75caa9fc0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/OLDREADME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/corda-docker-yo-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/corda-docker-yo-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/additional-node-infos/nodeInfo-0EBB5892EAF7EAD7501BB877E383047AAF79775E4066B1C41D1491A61D348F41" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/corda-docker-yo-demo-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/corda-docker-yo-demo-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/yo-cordapp-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/yo-cordapp-docker-0.1.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/nodes/Notary/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/additional-node-infos/nodeInfo-E08A3F33B058F1288BC198AC751C1CFF3B8C98F59E53E1B69DE90B0F82E591D4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/additional-node-infos/nodeInfo-B1F1FD9F15FCFDE1C9EE7A59504A44D669AB67B655597D60B691138E9C12E93C" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/additional-node-infos/nodeInfo-B1F1FD9F15FCFDE1C9EE7A59504A44D669AB67B655597D60B691138E9C12E93C" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/additional-node-infos/nodeInfo-E4477B559304AADFC0638772C0956A38FA2E2A7A5EB0E65D0D83E5884831879A" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/additional-node-infos/nodeInfo-E4477B559304AADFC0638772C0956A38FA2E2A7A5EB0E65D0D83E5884831879A" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/nodes/Notary/certificates/nodekeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/certificates/nodekeystore.jks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/nodes/Notary/certificates/sslkeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/certificates/sslkeystore.jks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/nodes/Notary/certificates/truststore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/certificates/truststore.jks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/logs/checkpoints_agent-20200504-155021.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/cordapps/contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/cordapps/contracts-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/cordapps/workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/cordapps/workflows-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/drivers/jolokia-jvm-1.6.0-agent.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/logs/checkpoints_agent-20200504-160606.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/logs/checkpoints_agent-20200504-201030.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/logs/diagnostic-edd7837c4ad7.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/nodes/Notary/logs/node-boron.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/logs/node-boron.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/logs/node-edd7837c4ad7.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/nodes/Notary/logs/node-info-gen.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/logs/node-info-gen.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/nodes/Notary/network-parameters" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/network-parameters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/node.conf" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/node.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/nodes/Notary/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/persistence.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/persistence.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/persistence.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/persistence.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/additional-node-infos/nodeInfo-0EBB5892EAF7EAD7501BB877E383047AAF79775E4066B1C41D1491A61D348F41" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/additional-node-infos/nodeInfo-E08A3F33B058F1288BC198AC751C1CFF3B8C98F59E53E1B69DE90B0F82E591D4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/certificates/nodekeystore.jks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/certificates/sslkeystore.jks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/certificates/truststore.jks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/corda.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/cordapps/contracts-0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/cordapps/workflows-0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/animal-sniffer-annotations-1.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/annotations-13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/bcpkix-jdk15on-1.60.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/bcprov-jdk15on-1.60.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/checker-qual-2.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/corda-core-deterministic-4.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/corda-deserializers-djvm-4.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/corda-node-djvm-4.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/corda-serialization-deterministic-4.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/deterministic-rt-1.0-RC02.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/eddsa-0.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/error_prone_annotations-2.3.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/failureaccess-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/guava-28.0-jre.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/j2objc-annotations-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/javax.persistence-api-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/jsr305-3.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/kotlin-reflect-1.2.71.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/kotlin-stdlib-1.2.71.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/kotlin-stdlib-common-1.2.71.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/kotlin-stdlib-jdk7-1.2.71.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/kotlin-stdlib-jdk8-1.2.71.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/proton-j-0.33.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/slf4j-api-1.7.26.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/slf4j-nop-1.7.26.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/djvm/snappy-0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/drivers/jolokia-jvm-1.6.0-agent.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/logs/checkpoints_agent-20200504-155021.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/logs/diagnostic-boron.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/logs/node-boron.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/logs/node-info-gen.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/network-parameters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/node.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/nodeInfo-E08A3F33B058F1288BC198AC751C1CFF3B8C98F59E53E1B69DE90B0F82E591D4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/persistence.mv.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice/persistence.trace.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/alice_node.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/additional-node-infos/nodeInfo-0EBB5892EAF7EAD7501BB877E383047AAF79775E4066B1C41D1491A61D348F41" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/additional-node-infos/nodeInfo-E08A3F33B058F1288BC198AC751C1CFF3B8C98F59E53E1B69DE90B0F82E591D4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/certificates/nodekeystore.jks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/certificates/sslkeystore.jks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/certificates/truststore.jks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/corda.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/cordapps/contracts-0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/cordapps/workflows-0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/animal-sniffer-annotations-1.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/annotations-13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/bcpkix-jdk15on-1.60.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/bcprov-jdk15on-1.60.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/checker-qual-2.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/corda-core-deterministic-4.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/corda-deserializers-djvm-4.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/corda-node-djvm-4.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/corda-serialization-deterministic-4.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/deterministic-rt-1.0-RC02.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/eddsa-0.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/error_prone_annotations-2.3.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/failureaccess-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/guava-28.0-jre.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/j2objc-annotations-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/javax.persistence-api-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/jsr305-3.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/kotlin-reflect-1.2.71.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/kotlin-stdlib-1.2.71.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/kotlin-stdlib-common-1.2.71.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/kotlin-stdlib-jdk7-1.2.71.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/kotlin-stdlib-jdk8-1.2.71.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/proton-j-0.33.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/slf4j-api-1.7.26.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/slf4j-nop-1.7.26.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/djvm/snappy-0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/drivers/jolokia-jvm-1.6.0-agent.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/logs/checkpoints_agent-20200504-155018.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/logs/diagnostic-boron.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/logs/node-boron.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/logs/node-info-gen.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/network-parameters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/node.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/nodeInfo-0EBB5892EAF7EAD7501BB877E383047AAF79775E4066B1C41D1491A61D348F41" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/persistence.mv.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob/persistence.trace.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/bob_node.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/persistence.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/persistence.trace.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/Notary_node.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/additional-node-infos/nodeInfo-B1F1FD9F15FCFDE1C9EE7A59504A44D669AB67B655597D60B691138E9C12E93C" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/additional-node-infos/nodeInfo-B1F1FD9F15FCFDE1C9EE7A59504A44D669AB67B655597D60B691138E9C12E93C" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/additional-node-infos/nodeInfo-E4477B559304AADFC0638772C0956A38FA2E2A7A5EB0E65D0D83E5884831879A" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/additional-node-infos/nodeInfo-E4477B559304AADFC0638772C0956A38FA2E2A7A5EB0E65D0D83E5884831879A" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/certificates/nodekeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/certificates/nodekeystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/certificates/sslkeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/certificates/sslkeystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/certificates/truststore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/certificates/truststore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/cordapps/contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/cordapps/contracts-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/cordapps/workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/cordapps/workflows-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/drivers/jolokia-jvm-1.6.0-agent.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/logs/checkpoints_agent-20200504-160606.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/logs/checkpoints_agent-20200504-201030.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/logs/diagnostic-0299f2eb9c3d.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/logs/node-0299f2eb9c3d.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/logs/node-boron.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/logs/node-boron.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/logs/node-info-gen.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/logs/node-info-gen.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/network-parameters" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/network-parameters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/node.conf" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/node.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/nodeInfo-E4477B559304AADFC0638772C0956A38FA2E2A7A5EB0E65D0D83E5884831879A" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/nodeInfo-E4477B559304AADFC0638772C0956A38FA2E2A7A5EB0E65D0D83E5884831879A" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/persistence.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/persistence.trace.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA_node.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/additional-node-infos/nodeInfo-B1F1FD9F15FCFDE1C9EE7A59504A44D669AB67B655597D60B691138E9C12E93C" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/additional-node-infos/nodeInfo-B1F1FD9F15FCFDE1C9EE7A59504A44D669AB67B655597D60B691138E9C12E93C" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/additional-node-infos/nodeInfo-E4477B559304AADFC0638772C0956A38FA2E2A7A5EB0E65D0D83E5884831879A" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/additional-node-infos/nodeInfo-E4477B559304AADFC0638772C0956A38FA2E2A7A5EB0E65D0D83E5884831879A" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/certificates/nodekeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/certificates/nodekeystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/certificates/sslkeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/certificates/sslkeystore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/certificates/truststore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/certificates/truststore.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/cordapps/contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/cordapps/contracts-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/cordapps/workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/cordapps/workflows-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/drivers/jolokia-jvm-1.6.0-agent.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/logs/checkpoints_agent-20200504-160602.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/logs/checkpoints_agent-20200504-201030.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/logs/diagnostic-d3a63c575d20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/logs/node-boron.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/logs/node-boron.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/logs/node-d3a63c575d20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/logs/node-info-gen.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/logs/node-info-gen.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/network-parameters" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/network-parameters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/node.conf" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/node.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/nodeInfo-B1F1FD9F15FCFDE1C9EE7A59504A44D669AB67B655597D60B691138E9C12E93C" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/nodeInfo-B1F1FD9F15FCFDE1C9EE7A59504A44D669AB67B655597D60B691138E9C12E93C" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/persistence.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/persistence.trace.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB_node.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/runnodes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/runnodes.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nodes/runnodes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/Notary_node.conf" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/Notary_node.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/PartyA_node.conf" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/PartyA_node.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/PartyB_node.conf" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/PartyB_node.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/alice_node.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/bob_node.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/runnodes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/runnodes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants.properties" beforeDir="false" afterPath="$PROJECT_DIR$/constants.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/build/libs/contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/build/libs/contracts-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/build/libs/workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/build/libs/workflows-0.1.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
