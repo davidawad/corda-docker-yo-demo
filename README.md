@@ -85,22 +85,29 @@ docker-compose -f ./build/nodes/docker-compose.yml up
 We will interact with the nodes via their specific shells. When the nodes are up and running, use the following command to send a Yo to another node:
 
 ```bash
-# NOTE you'll need to use docker ps to see the port
 # NOTE when the Jira ticket for ssh host pinning is done, we can hardcode the exact port for partyA here to make it easier.
 
-# find the port for PartyA
+# find the ssh port for PartyA using docker ps
 ssh user1@0.0.0.0 -p PORT
 
 # the password defined in the node config is "test"
+Password authentication
+Password: test
+
+
+Welcome to the Corda interactive shell.
+You can see the available commands by typing 'help'.
 
 # you'll see the corda shell available
->>> flow start YoFlow target: PartyB
+Fri May 15 18:23:03 GMT 2020>>> flow start YoFlow target: PartyB
+
 ```
 
-Where `NODE_NAME` is 'PartyA' or 'PartyB'. The space after the `:` is required. You are not required to use the full
-X500 name in the node shell. Note you can't sent a Yo! to yourself because that's not cool!
+Where `NODE_NAME` is 'PartyA' or 'PartyB'. The space after the `:` is required. You are not required to use the full X500 name in the node shell.
 
-To see all the Yo's! other nodes have sent you in your vault (you do not store the Yo's! you send yourself), run:
+###### Note you can't sent a Yo! to yourself because that's not cool!
+
+To see all the Yo's! other nodes have sent you in your vault you can run a vault query from the Corda shell:
 
 ```
     run vaultQuery contractStateType: net.corda.examples.yo.states.YoState
