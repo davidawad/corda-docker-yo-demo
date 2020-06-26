@@ -84,9 +84,7 @@ docker-compose -f ./build/nodes/docker-compose.yml up
 
 We will interact with the nodes via their specific shells. When the nodes are up and running, use the following command to send a Yo to another node:
 
-```bash
-# NOTE when the Jira ticket for ssh host pinning is done, we can hardcode the exact port for partyA here to make it easier.
-
+```sh
 # find the ssh port for PartyA using docker ps
 ssh user1@0.0.0.0 -p 2223
 
