@@ -20,7 +20,9 @@ public class YoContract implements Contract {
     // Contract code.
     @Override
     public void verify(@NotNull LedgerTransaction tx) throws IllegalArgumentException {
+
         CommandWithParties<Commands.Send> command = requireSingleCommand(tx.getCommands(), Commands.Send.class);
+
         requireThat(req -> {
             req.using("There can be no inputs when Yo'ing other parties", tx.getInputs().isEmpty());
             req.using("There must be one output: The Yo!", tx.getOutputs().size() == 1);

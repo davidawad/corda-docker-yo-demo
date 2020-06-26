@@ -6,6 +6,7 @@ buildscript {
         corda_release_group = constants.getProperty("cordaReleaseGroup")
         corda_release_version = constants.getProperty("cordaVersion")
         corda_gradle_plugins_version = constants.getProperty("gradlePluginsVersion")
+        // corda_gradle_plugins_version = mavenLocal()
         junit_version = constants.getProperty("junitVersion")
         quasar_version = constants.getProperty("quasarVersion")
         log4j_version = constants.getProperty("log4jVersion")
@@ -130,6 +131,7 @@ task deployNodesJava(type: net.corda.plugins.Cordform, dependsOn: ['jar']) {
 
 task prepareDockerNodes(type: net.corda.plugins.Dockerform, dependsOn: ['jar']) {
     dockerImage="corda/corda-zulu-java1.8-4.4:latest"
+    // cordformation=true
 
     nodeDefaults {
         projectCordapp {
@@ -155,6 +157,7 @@ task prepareDockerNodes(type: net.corda.plugins.Dockerform, dependsOn: ['jar']) 
             adminAddress("localhost:10046")
         }
         sshdPort 2223
+        // ports = [2223, 2223]
         rpcUsers = [[ user: "user1", "password": "test", "permissions": ["ALL"]]]
     }
     node {

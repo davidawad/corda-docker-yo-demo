@@ -88,10 +88,9 @@ We will interact with the nodes via their specific shells. When the nodes are up
 # NOTE when the Jira ticket for ssh host pinning is done, we can hardcode the exact port for partyA here to make it easier.
 
 # find the ssh port for PartyA using docker ps
-ssh user1@0.0.0.0 -p PORT
+ssh user1@0.0.0.0 -p 2223
 
 # the password defined in the node config is "test"
-Password authentication
 Password: test
 
 
