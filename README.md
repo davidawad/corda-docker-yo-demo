@@ -88,7 +88,7 @@ We will interact with the nodes via their specific shells. When the nodes are up
 # find the ssh port for PartyA using docker ps
 ssh user1@0.0.0.0 -p 2223
 
-# the password defined in the node config is "test"
+# the password defined in the node config for PartyA is "test"
 Password: test
 
 
