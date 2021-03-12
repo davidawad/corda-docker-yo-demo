@@ -144,42 +144,47 @@ task prepareDockerNodes(type: net.corda.plugins.Dockerform, dependsOn: ['jar']) 
     node {
         name "O=Notary,L=London,C=GB"
         notary = [validating : false]
-        p2pPort 10002
+        p2pPort 10001
         rpcSettings {
-            address("localhost:10003")
-            adminAddress("localhost:10043")
+            address("localhost:10001")
+            adminAddress("localhost:10041")
         }
+        sshdPort 2221
     }
 
     node {
         name "O=PartyA,L=London,C=GB"
         p2pPort 10002
         rpcSettings {
-            address("localhost:10006")
-            adminAddress("localhost:10046")
+            address("localhost:10002")
+            adminAddress("localhost:10042")
         }
-        sshdPort 2223
+        sshdPort 2222
         rpcUsers = [[ user: "user1", "password": "test", "permissions": ["ALL"]]]
     }
 
     node {
         name "O=PartyB,L=New York,C=US"
-        p2pPort 10008
+        p2pPort 10003
         rpcSettings {
-            address("localhost:10009")
-            adminAddress("localhost:10049")
+            address("localhost:10003")
+            adminAddress("localhost:10043")
+        }
+        sshdPort 2223
+        rpcUsers = [[ user: "user1", "password": "test", "permissions": ["ALL"]]]
+    }
+
+
+    node {
+        name "O=PartyC,L=New York,C=US"
+        p2pPort 10004
+        rpcSettings {
+            address("localhost:10004")
+            adminAddress("localhost:10044")
         }
         sshdPort 2224
         rpcUsers = [[ user: "user1", "password": "test", "permissions": ["ALL"]]]
     }
 }
 
-
-
-task installQuasar(type: Copy) {
-    destinationDir rootProject.file("lib")
-    from(configurations.quasar) {
-        rename 'quasar-core(.*).jar', 'quasar.jar'
-    }
-}
 
